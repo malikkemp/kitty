@@ -1,0 +1,28 @@
+#################################################################################
+#
+#
+#   _   __                       _   ___ _   _                           __
+#  | | / /                      | | / (_) | | |                         / _|
+#  | |/ /  ___ _ __ ___  _ __   | |/ / _| |_| |_ _   _   ___ ___  _ __ | |_
+#  |    \ / _ \ '_ ` _ \| '_ \  |    \| | __| __| | | | / __/ _ \| '_ \|  _|
+#  | |\  \  __/ | | | | | |_) | | |\  \ | |_| |_| |_| || (_| (_) | | | | |
+#  \_| \_/\___|_| |_| |_| .__/  \_| \_/_|\__|\__|\__, (_)___\___/|_| |_|_|
+#                       | |                       __/ |
+#                       |_|                      |___/
+#
+#################################################################################
+
+# Here will lie the main configuration files for the Kitty Terminal
+
+
+
+
+# Background opacity
+background_opacity 0.85
+
+# Tab Bar
+tab_bar_min_tabs            1
+tab_bar_edge                bottom
+tab_bar_style               powerline
+tab_powerline_style         slanted
+tab_title_template          {title}{' :{}:'.format(num_windows) if num_windows > 1 else ''}
